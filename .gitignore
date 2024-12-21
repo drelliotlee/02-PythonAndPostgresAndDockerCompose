@@ -1,0 +1,38 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment-specific files
+.env
+*.env
+
+# Docker-specific files
+docker-compose.override.yml
+*~ # Ignore temporary files (often created by editors)
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.swp
+
+# Node modules (if you ever add a Node.js service)
+node_modules/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL volume (if you mount it locally for some reason)
+pgdata/
+
+# Devcontainer settings (if you have local overrides)
+.devcontainer/override.*
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.bak
+*.tmp
