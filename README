@@ -1,0 +1,5 @@
+Dec 21 2024
+
+Yesterday, I dockerized a python script and successfully edited it within a devcontainer.
+
+Today I want to see if I can do it with two containers (python and postgresql) and have them (1) interact over a network and (2) persist changes after teardown
